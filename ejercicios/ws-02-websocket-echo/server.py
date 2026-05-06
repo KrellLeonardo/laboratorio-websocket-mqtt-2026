@@ -1,7 +1,7 @@
 import asyncio
 from datetime import datetime
 
-from websockets.server import serve
+from websockets.asyncio.server import serve
 
 
 CLIENTES = set()

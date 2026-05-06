@@ -1,5 +1,5 @@
 import asyncio
-from websockets.server import serve
+from websockets.asyncio.server import serve
 
 
 async def handler(websocket):
